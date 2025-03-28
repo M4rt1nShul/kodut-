@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="et">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Teha Koduleht</title>
+    <link rel="stylesheet" href="css/bootstrap.css">
+    <script src="js/bootstrap.js"></script>
+    <style>
+        body {
+            background: url('background.jpg') no-repeat center center fixed;
+            background-size: cover;
+            color: white;
+        }
+        .container {
+            background: rgba(0, 0, 0, 0.7);
+            padding: 20px;
+            border-radius: 10px;
+        }
+    </style>
+</head>
+<body>
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+        <div class="container-fluid">
+            <a class="navbar-brand" href="#">Teha</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav">
+                    <li class="nav-item"><a class="nav-link" href="">Avaleht</a></li>
+                    <li class="nav-item"><a class="nav-link" href="">Blogi</a></li>
+                    <li class="nav-item"><a class="nav-link" href="">Tooted</a></li>
+                    <li class="nav-item"><a class="nav-link" href="kontakt.html" >Kontakt</a></li>
+                    <li class="nav-item"><a class="nav-link" href="logoSisse.html">Logi sisse</a></li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+    
+    <section id="index" class="container my-5">
+        <h2>Meie Ettevõte</h2>
+        <p>Teha on juhtiv arvutite ja IT-lahenduste pakkuja Eestis. Pakume kaasaegseid arvutisüsteeme, võrguinfrastruktuuri ning IT-tuge nii ettevõtetele kui ka eraisikutele.</p>
+        <div id="carouselExample" class="carousel slide" data-bs-ride="carousel">
+            <div class="carousel-inner">
+                <div class="carousel-item active"><img src="https://mdbootstrap.com/img/Photos/Slides/img%20(78).jpg" class="d-block w-100" alt="Pilt 1"></div>
+                <div class="carousel-item"><img src="https://mdbootstrap.com/img/Photos/Slides/img%20(87).jpg" class="d-block w-100" alt="Pilt 2"></div>
+                <div class="carousel-item"><img src="https://mdbootstrap.com/img/Photos/Slides/img%20(28).jpg" class="d-block w-100" alt="Pilt 3"></div>
+                <div class="carousel-item"><img src="https://mdbootstrap.com/img/Photos/Slides/img%20(29).jpg" class="d-block w-100" alt="Pilt 4"></div>
+            </div>
+            <button class="carousel-control-prev" type="button" data-bs-target="#carouselExample" data-bs-slide="prev">
+                <span class="carousel-control-prev-icon"></span>
+            </button>
+            <button class="carousel-control-next" type="button" data-bs-target="#carouselExample" data-bs-slide="next">
+                <span class="carousel-control-next-icon"></span>
+            </button>
+        </div>
+    </section>
+
+    <section id="products" class="container my-5">
+        <h2>Tooted</h2>
+        <div class="row">
+            <div class="col-md-4">
+                <div class="card">
+                    <img src="images/img5.jpg" class="card-img-top" alt="Toode 1">
+                    <div class="card-body">
+                        <h5 class="card-title">Kõrvaklapid</h5>
+                        <p class="card-text">€90</p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-4">
+                <div class="card">
+                    <img src="images/img2.jpg" class="card-img-top" alt="Toode 2">
+                    <div class="card-body">
+                        <h5 class="card-title">Mänguarvuti</h5>
+                        <p class="card-text">€1650</p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-4">
+                <div class="card">
+                    <img src="images/img3.jpg" class="card-img-top" alt="Toode 3">
+                    <div class="card-body">
+                        <h5 class="card-title">klaviatuur</h5>
+                        <p class="card-text">€60</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    
+    <section id="contact" class="container my-5">
+        <h2>Kontakt</h2>
+        <p><strong>Email:</strong> info@teha.ee</p>
+        <p><strong>Telefon:</strong> +372 1234567</p>
+        <p><strong>Aadress:</strong> Tehnoloogia 10, Tallinn, Eesti</p>
+        <iframe src="https://maps.google.com/" width="100%" height="300"></iframe>
+    </section>
+    
+    <section id="login" class="container my-5">
+        <h2>Logi sisse</h2>
+        <form>
+            <div class="mb-3">
+                <label for="email" class="form-label">Email</label>
+                <input type="email" class="form-control" id="email">
+            </div>
+            <div class="mb-3">
+                <label for="password" class="form-label">Salasõna</label>
+                <input type="password" class="form-control" id="password">
+            </div>
+            <button type="submit" class="btn btn-primary">Logi sisse</button>
+        </form>
+    </section>
+    
+    <script src="js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
